@@ -116,6 +116,13 @@ span{
 
 @media (max-width: 700px) {
 
+    body {
+
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+
     #tela{
         
         display: flex;
@@ -138,5 +145,22 @@ span{
         }
     }
 
+    .tarde  {
+        .card {
+            background: none;
+        }
+    }
+
+    .manha  {
+        .card {
+            background: none;
+        }
+    }
+
+    .madrugada  {
+        .card {
+            background: none;
+        }
+    }
     
 }
